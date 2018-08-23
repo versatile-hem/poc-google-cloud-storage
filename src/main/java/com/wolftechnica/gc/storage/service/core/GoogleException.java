@@ -1,4 +1,4 @@
-package com.wolftechnica.gc.storage.service;
+package com.wolftechnica.gc.storage.service.core;
 
 /**
  * The FacebookException wraps all checked standard Java exception and enriches

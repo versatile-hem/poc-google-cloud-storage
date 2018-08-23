@@ -1,8 +1,10 @@
-package com.wolftechnica.gc.storage.service;
+package com.wolftechnica.gc.storage.service.core;
 
 public enum GoogleExceptionCodes {
 
-	UNABLE_TO_CONNECT(10001, "unable to connect to faceboook.")
+	UNABLE_TO_CONNECT(70001, "unable to connect to gcp."),
+	NO_BUCKET_FOUND(70002, "No bucket found with given name."),
+	NO_BUCKET_OBJECT_FOUND(70003, "No bucket object found with given name.")
 
 	;
 

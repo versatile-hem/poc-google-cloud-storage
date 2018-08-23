@@ -1,10 +1,16 @@
 package com.wolftechnica.gc.storage.controllers;
 
+import java.io.Serializable;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class APIResponse {
+public class APIResponse implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2327593859213257027L;
 	private boolean status;
 	private long statusCode;
 	private String message;
